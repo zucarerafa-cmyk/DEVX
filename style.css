@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0b2545 0%, #134074 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    color: #1d2d44;
+}
+
+.login h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    color: #0b2545;
+    margin-bottom: 6px;
+}
+
+.subtitulo {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 24px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #1d2d44;
+}
+
+.campo-input {
+    width: 100%;
+    height: 44px;
+    padding: 0 12px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    background-color: #f8f9fa;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.campo-input:focus {
+    border-color: #134074;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(19, 64, 116, 0.15);
+}
+
+.btn-entrar {
+    width: 100%;
+    height: 46px;
+    background-color: #134074;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-entrar:hover {
+    background-color: #0b2545;
+}
+
+.btn-entrar:active {
+    transform: scale(0.99);
+}
+
+.rodape-card {
+    margin-top: 24px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.link-cadastrar {
+    color: #134074;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.link-cadastrar:hover {
+    text-decoration: underline;
+}
